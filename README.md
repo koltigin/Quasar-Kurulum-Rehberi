@@ -1,7 +1,7 @@
 # Quasar Kurulum Rehberi
 
 [Kaynak](https://docs.quasar.fi/) / [Explorer](https://quasar.explorers.guru/)
-![Nibiru-GitHub](https://user-images.githubusercontent.com/102043225/221709752-3577df02-2f9d-42cd-b12d-a1593ae33ad3.jpg)
+![Quasar-GitHub](https://user-images.githubusercontent.com/102043225/221958378-b4346291-bb88-4b80-b8c8-57caf7f62947.jpg)
 
 ## Bağlantılar
  ✔️ [Website](https://www.quasar.fi/)<br>
