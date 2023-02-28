@@ -62,7 +62,7 @@ Node ve Cüzdan adımızın `Mehmet` olduğunu varsayalım. Kod aşağıdaki şe
 echo "export QSR_NODENAME=Mehmet"  >> $HOME/.bash_profile
 echo "export QSR_WALLET=Mehmet" >> $HOME/.bash_profile
 echo "export QSR_PORT=18" >> $HOME/.bash_profile
-echo "export QSR_CHAIN_ID=nibiru-itn-1" >> $HOME/.bash_profile
+echo "export QSR_CHAIN_ID=qsr-questnet-04" >> $HOME/.bash_profile
 source $HOME/.bash_profile
 ```
 
