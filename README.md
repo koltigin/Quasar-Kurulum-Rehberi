@@ -6,7 +6,7 @@
 ## Bağlantılar
  ✔️ [Website](https://www.quasar.fi/)<br>
  ✔️ [Blockchain Explorer](https://quasar.explorers.guru/)<br>
- ✔️ [Doküman](https://nibiru.fi/docs/run-nodes/testnet/)<br>
+ ✔️ [Doküman](https://docs.quasar.fi/)<br>
  ✔️ [Discord](https://discord.gg/quasarfi)<br>
  ✔️ [Testnet Platfrom](https://testnet.quasar.fi/)<br>
  ✔️ [Crew3](https://crew3.xyz/c/quasar/invite/mIVQ2sIaT_Xk7kdREddMc)
