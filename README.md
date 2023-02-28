@@ -325,7 +325,7 @@ quasard query bank balances $QSR_WALLET_ADDRESS
 ### Bir Cüzdandan Diğer Bir Cüzdana Transfer Yapma
 
 ```
-quasard tx bank send $QSR_WALLET_ADDRESS GONDERILECEK_CUZDAN_ADRESI 100000000uheart
+quasard tx bank send $QSR_WALLET_ADDRESS GONDERILECEK_CUZDAN_ADRESI 100000000uqsr
 ```
 
 ### Proposal Oylamasına Katılma
@@ -337,14 +337,14 @@ quasard tx gov vote 1 yes --from $QSR_WALLET --chain-id=$QSR_CHAIN_ID
 ### Validatore Stake Etme / Delegate Etme
 
 ```
-quasard tx staking delegate $VALOPER_ADDRESS 100000000uheart --from=$QSR_WALLET --chain-id=$QSR_CHAIN_ID --gas=auto --fees 5000uheart
+quasard tx staking delegate $VALOPER_ADDRESS 100000000uqsr --from=$QSR_WALLET --chain-id=$QSR_CHAIN_ID --gas-prices=0.1uqsr --gas-adjustment=1.5 --gas=auto
 ```
 
 ### Mevcut Validatorden Diğer Validatore Stake Etme / Redelegate Etme
 <srcValidatorAddress>: Mevcut Stake edilen validatorün adresi
 <destValidatorAddress>: Yeni stake edilecek validatorün adresi 
 ```
-quasard tx staking redelegate <srcValidatorAddress> <destValidatorAddress> 100000000uheart --from=$QSR_WALLET --chain-id=$QSR_CHAIN_ID --gas=auto
+quasard tx staking redelegate <srcValidatorAddress> <destValidatorAddress> 100000000uqsr --from=$QSR_WALLET --chain-id=$QSR_CHAIN_ID --gas-prices=0.1uqsr --gas-adjustment=1.5 --gas=auto
 ```
 
 ### Ödülleri Çekme
