@@ -337,14 +337,14 @@ quasarnoded tx gov vote 1 yes --from $QSR_WALLET --chain-id=$QSR_CHAIN_ID
 ### Validatore Stake Etme / Delegate Etme
 
 ```
-quasarnoded tx staking delegate $VALOPER_ADDRESS 100000000uheart --from=$QSR_WALLET --chain-id=$QSR_CHAIN_ID --gas=auto --fees 5000uheart
+quasarnoded tx staking delegate $QSR_VALOPER_ADDRESS 1000000uqsr --from=$QSR_WALLET --chain-id=$QSR_CHAIN_ID --gas-prices=0.1uqsr --gas-adjustment=1.5 --gas=auto
 ```
 
 ### Mevcut Validatorden Diğer Validatore Stake Etme / Redelegate Etme
 <srcValidatorAddress>: Mevcut Stake edilen validatorün adresi
 <destValidatorAddress>: Yeni stake edilecek validatorün adresi 
 ```
-quasarnoded tx staking redelegate <srcValidatorAddress> <destValidatorAddress> 100000000uheart --from=$QSR_WALLET --chain-id=$QSR_CHAIN_ID --gas=auto
+quasarnoded tx staking redelegate <srcValidatorAddress> <destValidatorAddress> 1000000uqsr --from=$QSR_WALLET --chain-id=$QSR_CHAIN_ID --gas-prices=0.1uqsr --gas-adjustment=1.5 --gas=auto
 ```
 
 ### Ödülleri Çekme
